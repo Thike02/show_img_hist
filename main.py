@@ -5,7 +5,7 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'block_breaking.jpg'
+img_url = 'https://github.com/Thike02/show_img_hist/blob/main/block_breaking.jpg'
 
 im = imread(img_url)
 
