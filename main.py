@@ -5,7 +5,7 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'c:/Users/takuy/OneDrive - NITech/画像/kadai1_3.png'
+img_url = 'block_breaking.jpg'
 
 im = imread(img_url)
 
