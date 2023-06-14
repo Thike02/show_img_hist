@@ -7,6 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://github.com/Thike02/show_img_hist/blob/main/block_breaking.jpg'
 
+#read image
 im = imread(img_url)
 
 st.image(im, caption='image from wikimedia commons',
