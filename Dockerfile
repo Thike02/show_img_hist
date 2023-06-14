@@ -6,4 +6,4 @@ RUN pip install -U pip \
 
 COPY main.py start.sh /root/
 RUN chmod +x /root/start.sh
-CMD [ "/root/start.sh" ]
+ENTRYPOINT [ "/root/start.sh" ]
